@@ -5,7 +5,7 @@
 }
 body {
   width: 100%;
-  background-color: white;
+  background-color: var(--main-gray);
 }
 
 .container__1,
@@ -334,11 +334,11 @@ footer > p > a {
   }
   footer {
     gap: 0.3rem;
-    margin-block: 9rem;
+    margin-block: 17rem;
   }
   footer > p {
     font-size: 0.4em;
-    margin-top: 2.5rem;
+    margin-top: 0.7rem;
   }
 }
 @media (max-width: 360px) {
@@ -383,10 +383,10 @@ footer > p > a {
   }
   footer {
     gap: 0.2rem;
-    margin-block: 9rem;
+    margin-block: 15rem;
   }
   footer > p {
     font-size: 0.4rem;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
   }
 }
