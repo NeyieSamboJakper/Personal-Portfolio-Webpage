@@ -293,6 +293,53 @@ footer > p > a {
     margin-top: 3rem;
   }
 }
+
+@media (max-width: 390px) {
+  .container {
+    width: 100%;
+  }
+  #navbar {
+    width: 100%;
+    justify-content: center;
+    gap: 0;
+  }
+  #welcome-section > h1 {
+    font-size: 2.3rem;
+  }
+  #welcome-section > p {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+  }
+  #projects > h2 {
+    font-size: 1.56rem;
+    margin-bottom: 1rem;
+  }
+  .trying > a {
+    font-size: 0.3rem;
+  }
+  #lastpart > h1 {
+    font-size: 2.1rem;
+  }
+  #lastpart > p {
+    font-size: 1.4rem;
+  }
+  #handles {
+    justify-content: center;
+    gap: 0;
+  }
+  #handles > a {
+    font-size: 0.7rem;
+    padding-inline: 0.4rem;
+  }
+  footer {
+    gap: 0.3rem;
+    margin-block: 9rem;
+  }
+  footer > p {
+    font-size: 0.45em;
+    margin-top: 2.5rem;
+  }
+}
 @media (max-width: 360px) {
   .container {
     width: 100%;
