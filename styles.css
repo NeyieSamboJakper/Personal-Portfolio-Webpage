@@ -315,7 +315,8 @@ footer > p > a {
     margin-bottom: 1rem;
   }
   .trying > a {
-    font-size: 0.3rem;
+    font-size: 0.4rem;
+    text-align: center;
   }
   #lastpart > h1 {
     font-size: 2.1rem;
@@ -336,7 +337,7 @@ footer > p > a {
     margin-block: 9rem;
   }
   footer > p {
-    font-size: 0.45em;
+    font-size: 0.4em;
     margin-top: 2.5rem;
   }
 }
@@ -363,7 +364,8 @@ footer > p > a {
     font-size: 1.5rem;
   }
   .trying > a {
-    font-size: 0.2rem;
+    font-size: 0.3rem;
+    text-align: center;
   }
   #lastpart > h1 {
     font-size: 2rem;
