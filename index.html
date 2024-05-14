@@ -3,122 +3,147 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio</title>
+    <title>Personal Portfolio Webpage</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/header.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
+    <link rel="stylesheet" href="styles/children.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="container.css" />
   </head>
   <body>
-    <section class="container">
-      <nav id="navbar">
-        <a class="hover" href="#welcome-section">About</a>
-        <a class="hover" href="#projects">Work</a>
-        <a class="hover" href="#lastpart">Contact</a>
+    <header>
+      <nav class="container">
+        <ul>
+          <a class="about" href="#welcome__children"><li>About</li></a>
+          <a class="about" href="#project__children"><li>Work</li></a>
+          <a class="about" href="#lastpart"><li>Contact</li></a>
+        </ul>
       </nav>
-    </section>
-    <section id="welcome-section" class="container__1">
-      <h1>Hey, I'm Sambo 👋</h1>
-      <p id="p1">a front-end web developer</p>
-    </section>
-    <section id="projects" class="container__2">
-      <h2>These are some of my projects</h2>
-      <div class="project-tile">
-        <div class="trying">
-          <img
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
-          />
-          <a
-            class="anchor"
-            target="_blank"
-            href="https://codepen.io/freeCodeCamp/full/zNqgVx"
-            >Tribute Page</a
-          >
+    </header>
+    <main>
+      <section class="container">
+        <div id="welcome__children" class="children">
+          <h1>Hey I am Sambo 👋</h1>
+          <p id="p1">a front-end web developer</p>
         </div>
-        <div class="trying">
-          <img
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
-          />
-          <a class="anchor" target="_blank" href="">Random Quote Machine</a>
+      </section>
+      <section class="container">
+        <div id="project__children" class="children">
+          <h2>These are some of my projects</h2>
+          <div class="project-tile">
+            <div class="trying">
+              <img
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+              />
+              <a
+                class="anchor"
+                target="_blank"
+                href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+                >Tribute Page</a
+              >
+            </div>
+            <div class="trying">
+              <img
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+              />
+              <a class="anchor" target="_blank" href="">Random Quote Machine</a>
+            </div>
+            <div class="trying">
+              <img
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+              />
+              <a class="anchor" target="_blank" href="">JavaScript Caculator</a>
+            </div>
+            <div class="trying">
+              <img
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+              />
+              <a class="anchor" target="_blank" href=""
+                >Map Data Across the Globe</a
+              >
+            </div>
+            <div class="trying">
+              <img
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+              />
+              <a class="anchor" target="_blank" href="">Wikipedia Viewer</a>
+            </div>
+            <div class="trying">
+              <img
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+              />
+              <a class="anchor" target="_blank" href="">Tic Tac Toe Game</a>
+            </div>
+          </div>
+          <button>
+            <a
+              href="https://www.freecodecamp.org/certification/Sambo_Jakper/responsive-web-design"
+              target="_blank"
+              >Show all</a
+            >
+          </button>
         </div>
-        <div class="trying">
-          <img
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
-          />
-          <a class="anchor" target="_blank" href="">JavaScript Caculator</a>
+      </section>
+      <section class="container">
+        <div id="lastpart" class="children">
+          <h1>Let's work together...</h1>
+          <p>How do you take your coffee?</p>
+          <div id="handles">
+            <a id="profile-link" target="_blank" href="">
+              <i class="fa-brands fa-facebook"></i>
+              <label>Facebook</label>
+            </a>
+            <a
+              id="profile-link"
+              target="_blank"
+              href="https://github.com/NeyieSamboJakper"
+            >
+              <i class="fa-brands fa-github"></i>
+              <label>GitHub</label>
+            </a>
+            <a id="profile-link" target="_blank" href="">
+              <i class="fa-brands fa-x-twitter"></i>
+              <label>X-twitter</label>
+            </a>
+            <a id="profile-link" target="_blank" href="">
+              <i class="fa-solid fa-at"></i>
+              <label>Email</label>
+            </a>
+            <a id="profile-link" target="_blank" href="">
+              <i class="fa-solid fa-phone"></i>
+              <label>Call me</label>
+            </a>
+          </div>
         </div>
-        <div class="trying">
-          <img
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
-          />
-          <a class="anchor" target="_blank" href=""
-            >Map Data Across the Globe</a
-          >
-        </div>
-        <div class="trying">
-          <img
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
-          />
-          <a class="anchor" target="_blank" href="">Wikipedia Viewer</a>
-        </div>
-        <div class="trying">
-          <img
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
-          />
-          <a class="anchor" target="_blank" href="">Tic Tac Toe Game</a>
-        </div>
-      </div>
-      <button>
-        <a
-          href="https://www.freecodecamp.org/certification/Sambo_Jakper/responsive-web-design"
-          target="_blank"
-          >Show all</a
-        >
-      </button>
-    </section>
-    <section id="lastpart" class="container__3">
-      <h1>Let's work together...</h1>
-      <p id="p2">How do you take your coffee?</p>
-      <div id="handles">
-        <a class="profile-link" target="_blank" href="">
-          <i class="fa-brands fa-facebook"></i>
-          <label>Facebook</label>
+      </section>
+    </main>
+    <footer class="container">
+      <p class="p1">
+        **This is just a fake portfolio. All the projects and contact details
+        given are not real.
+      </p>
+      <p>
+        © Created for
+        <a href="https://www.freecodecamp.org/" target="_blank">
+          freeCodeCamp
+          <i class="fa-brands fa-free-code-camp"></i>
         </a>
-        <a
-          class="profile-link"
-          target="_blank"
-          href="https://github.com/NeyieSamboJakper"
-        >
-          <i class="fa-brands fa-github"></i>
-          <label>GitHub</label>
-        </a>
-        <a class="profile-link" target="_blank" href="">
-          <i class="fa-brands fa-x-twitter"></i>
-          <label>X-twitter</label>
-        </a>
-        <a class="profile-link" target="_blank" href="">
-          <i class="fa-solid fa-at"></i>
-          <label>Email</label>
-        </a>
-        <a class="profile-link" target="_blank" href="">
-          <i class="fa-solid fa-phone"></i>
-          <label>Call me</label>
-        </a>
-      </div>
-      <footer>
-        <p>
-          **This is just a fake portfolio. All the projects and contact details
-          given are not real.
-        </p>
-        <p class="p1">
-          © Created for
-          <a href="https://www.freecodecamp.org/" target="_blank">
-            freeCodeCamp
-            <i class="fa-brands fa-free-code-camp"></i>
-          </a>
-        </p>
-      </footer>
-    </section>
+      </p>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,8 @@
+/* Basically is like a container like the main cintainer. I can decide to reduce the width later if i want to */
+.children {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}

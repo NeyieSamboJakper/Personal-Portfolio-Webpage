@@ -1,0 +1,143 @@
+/* main container for the whole projects. NB: remember to give it border to see it. */
+.container {
+  max-width: 1536px;
+  padding-inline: 0.5;
+  margin-inline: auto;
+}
+
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  footer > p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  .project-tile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #handles {
+    gap: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  #welcome__children > h1 {
+    font-size: 3rem;
+  }
+  .trying > a {
+    font-size: 0.7rem;
+  }
+  #project__children > h2 {
+    font-size: 2.1rem;
+  }
+  #handles {
+    font-size: 1rem;
+    gap: 0.6rem;
+  }
+  footer {
+    gap: 0.4rem;
+  }
+  footer > p {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+  #project__children > h2 {
+    font-size: 1.4rem;
+  }
+  .trying > a {
+    font-size: 0.6rem;
+  }
+  #lastpart > h1 {
+    font-size: 2.3rem;
+  }
+  #lastpart > p {
+    font-size: 1.5rem;
+  }
+  #handles {
+    font-size: 1rem;
+    gap: 0.4rem;
+  }
+  footer > p {
+    font-size: 0.4rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+
+  #welcome__children > h1 {
+    font-size: 1.89rem;
+    margin-top: 12rem;
+  }
+  #welcome__children > p {
+    font-size: 1.1rem;
+    margin-bottom: 12rem;
+  }
+  #welcome__children {
+    height: 100%;
+  }
+  #project__children > h2 {
+    font-size: 1rem;
+  }
+
+  .project-tile {
+    gap: 0.9rem;
+  }
+  .trying > a {
+    padding-block: 0.3rem;
+    padding-inline: 0.3rem;
+    font-size: 0.4rem;
+    text-align: center;
+  }
+  button {
+    font-size: 1rem;
+    margin-block: 2rem;
+    padding-inline: 0.4rem;
+    padding-block: 0.3rem;
+  }
+  #lastpart {
+    height: 100%;
+  }
+  #lastpart > h1 {
+    font-size: 1.2rem;
+    margin-top: 5rem;
+  }
+  #lastpart > p {
+    font-size: 1rem;
+  }
+  #handles {
+    font-size: 0.5rem;
+    gap: 0.2rem;
+    margin-bottom: 4rem;
+  }
+  footer > p {
+    font-size: 0.3rem;
+  }
+  .about {
+    font-size: 1rem;
+  }
+}
